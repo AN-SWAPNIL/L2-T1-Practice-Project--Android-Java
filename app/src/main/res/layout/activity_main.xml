@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:shadowColor="#DF0E0E"
+        android:text="@string/quine_mccluskey_ntabulation_method"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSolve"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="150dp"
+        android:onClick="onSolve"
+        android:text="@string/solve_problem"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:onClick="onAbout"
+        android:text="@string/about_method"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnSolve"
+        app:layout_constraintStart_toStartOf="@+id/btnSolve"
+        app:layout_constraintTop_toBottomOf="@+id/btnSolve" />
+</androidx.constraintlayout.widget.ConstraintLayout>

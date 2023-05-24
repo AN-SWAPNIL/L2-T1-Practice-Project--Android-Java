@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">QM Tabulation Method</string>
+    <string name="about_method">About Method</string>
+    <string name="solve_problem">Solve Problem</string>
+    <string name="quine_mccluskey_ntabulation_method">Quine-McCluskey\nTabulation Method</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_result_page">ResultPage</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="table_1">Table 1</string>
+    <string name="table_2">Table 2</string>
+    <string name="solution">Solution</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prime_implecants">Prime Implecants:</string>
+    <string name="n_prime_implecants">\n Prime implecants :</string>
+    <string name="n_ess_prime_implecants">\n Ess. prime Implecants :</string>
+    <string name="n_solution">\n Solution :</string>
+    <string name="hello">hello</string>
+    <string name="show_steps">Show Steps</string>
+    <string name="helloee">helloee</string>
+    <string name="ess_prime_implecants">Ess. Prime Implecants :</string>
+    <string name="prime_Implecants">Prime Implecants :</string>
+    <string name="helloe">helloe</string>
+    <string name="helloeee">helloeee</string>
+    <string name="Solution">Solution :</string>
+    <string name="show_Steps">Show Steps</string>
+</resources>
