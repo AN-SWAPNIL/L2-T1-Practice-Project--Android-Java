@@ -15,6 +15,8 @@
 [![Youtube Tutorial Link](http://img.youtube.com/vi/IWpVVDBcS44/0.jpg)](http://www.youtube.com/watch?v=IWpVVDBcS44 "Youtube Tutorial Link")
 
 ## Features
+### 1. Icon and Name View
+![ICON](https://github.com/AN-SWAPNIL/L2-T1-Practice-Project--Android-Java/assets/97844745/589c40e3-4527-4e41-9970-ef76f41c78c7)
 ### 1. Main Page. Tap About Method or Solve Problem.
 ![Main Page](https://github.com/AN-SWAPNIL/L2-T1-Practice-Project--Android-Java/assets/97844745/17f0483d-243a-4885-8f69-fdefe0d49f37)
 ### 2. About the Method. Click top bar to go to GFG.
