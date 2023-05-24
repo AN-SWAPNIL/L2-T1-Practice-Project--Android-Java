@@ -1,2 +1,2 @@
-# L2-T1 Practice Project (Android-Java)
- This is a Android Application project using Java. Quine-McCluskey Tabulation is imlemented through the project.
+# Quine McCluskey Tabulation Method Calculator
+ This is a Android Application project using Java. Quine-McCluskey Tabulation is imlemented through the project. One can learn Tabulation method using this application. One can get Prime (PI) and Essential Prime Implecants (EPI) and Some of Products for any number of Variables, Minterms and Don't Cares. Also see both Tables (One for PI, another for EPI) like real life experience!
