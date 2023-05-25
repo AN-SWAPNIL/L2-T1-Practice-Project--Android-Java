@@ -11,7 +11,7 @@ tools:context=".MainActivity">
         style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="70dp"
         android:shadowColor="#DF0E0E"
         android:text="@string/quine_mccluskey_ntabulation_method"
         android:textAlignment="center"
@@ -26,7 +26,7 @@ tools:context=".MainActivity">
         android:id="@+id/btnSolve"
         android:layout_width="220dp"
         android:layout_height="70dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="100dp"
         android:onClick="onSolve"
         android:text="@string/solve_problem"
         android:textSize="20sp"
@@ -45,4 +45,58 @@ tools:context=".MainActivity">
         app:layout_constraintEnd_toEndOf="@+id/btnSolve"
         app:layout_constraintStart_toStartOf="@+id/btnSolve"
         app:layout_constraintTop_toBottomOf="@+id/btnSolve" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Developed by:"
+        android:textColor="#0D6C05"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAbout" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="AN_Swapnil"
+        android:textColor="#0D6C05"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/gitLink"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="200dp"
+        android:clickable="true"
+        android:contentDescription="github"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/github"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/youLink"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="100dp"
+        android:clickable="true"
+        android:contentDescription="youtube"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/youtube"
+        android:focusable="true" />
 </androidx.constraintlayout.widget.ConstraintLayout>
